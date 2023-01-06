@@ -1,0 +1,24 @@
+.main {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-width: 500px;
+}
+
+.slideimg {
+  max-height: 450px;
+  pointer-events: none;
+}
+
+@media (max-width:500px) {
+  .main{
+    transform: scale(0.6) translateX(-300px);
+  }
+  .crous{
+    transform: translateX(55vw);
+  }
+}
+  
+
